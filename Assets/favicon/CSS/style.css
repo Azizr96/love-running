@@ -35,6 +35,20 @@ h1 {
   color: #252525;
 }
 
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid #252525;
+}
+
 header a {
   text-decoration: none;
   color: inherit;
